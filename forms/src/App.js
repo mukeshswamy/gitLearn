@@ -1,14 +1,14 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Button from "./Components/Shared/Button";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-    </div>
+    <Button
+      whereTo="https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_basic"
+      title="go"
+    />
   );
 }
 
