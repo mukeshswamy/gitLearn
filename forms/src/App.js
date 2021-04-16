@@ -1,14 +1,12 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import Button from "./Components/Shared/Button";
+import Home from "./Components/Pages/Home";
+import "./Assets/style.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <Button
-      whereTo="https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_basic"
-      title="go"
-    />
+    <Home/>
   );
 }
 
